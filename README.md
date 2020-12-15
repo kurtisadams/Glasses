@@ -3,30 +3,13 @@
 ## Description
 
 This repo contains an implementation of the *Adversarial Generative 
-Nets (AGNs)*, which we proposed in our ACM TOPS 2019 paper (see
-reference below). A demo for launching impersonation and dodging 
-attacks against the VGG and OpenFace face recognition neural networks 
-is provided.
+Nets (AGNs)*, from the paper referenced in the documentation.
 
 ## Data and models
 
-Before you can run the code, you need to download the set of eyeglass images that we synthesized from real textures (link: 
-<https://tinyurl.com/AGNsEyeglasses>; place them under `data/eyeglasses`) and the neural networks that we trained (link: 
-<https://tinyurl.com/AGNsModels>; place them under `models/`).
+Before you can run the code, you need to download the missing models and place them in the models folder (link: 
+<https://www.dropbox.com/sh/ue7q46qwdtk1jy9/AACYb3pgApEDB5vJfT5iXPkja?dl=0>)
 
-## Dependencies
-
-The code is implemented in MATLAB (we used `MATLAB R2015a`). As mentioned 
-in the paper, our implementation depends on MatConvNet 
-(<http://www.vlfeat.org/matconvnet/>)---a MATLAB toolbox for 
-convolution neural networks. An extended version (containing additional 
-layers, etc.) is provided under `dependencies/`.
-
-To align images (necessary when running experiments with the OpenFace 
-neural networks and for using new images in attacks), our code depends 
-on Python packages (we used `python3.6`) for face and landmark 
-detection. Specifically, the face and landmark detectors of the 
-`dlib` package are used.
 
 ## Instructions for running
 
